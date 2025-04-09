@@ -21,3 +21,17 @@ public class Variables {
         System.out.println(genero);
     }
 }
+
+
+/*MEMORIA RAM*/
+
+/*
+RAM (Random Access Memory) - volatil
+
+En java contamos con dos clasificaciones de RAM para almacenar los datos de nuestros programas
+
+- Memoria Stack (Pila): Almacena las variables primitivas cuando se declaran dentro de un metodo.
+Almacena variables locales y referencias a objetos.
+
+- Memoria Heap: Almacena los objetos asi como sus datos.
+ */
