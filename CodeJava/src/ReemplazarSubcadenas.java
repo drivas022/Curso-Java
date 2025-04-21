@@ -10,6 +10,6 @@ public class ReemplazarSubcadenas{
 
         // Reemplazar "Hola" por "Adios"
         nuevaCadena = cadena.replace("Hola", "Saludos");
-        System.out.println("nuevaCadena = " + nuevaCadena); 
+        System.out.println("nuevaCadena = " + nuevaCadena);
     }
 }
