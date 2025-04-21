@@ -20,10 +20,10 @@ public class TipoVar {
         var numero = 30L; //se infiere tipo Long
 
         //Se debe definir su valor | A CONTINUACIÓN SE MUESTRA UN EJEMPLO ERRONEO
-        var precio; //aqui se debe asignar un valor desde su declaración
-        precio = 10;
+        //var precio; aqui se debe asignar un valor desde su declaración
+        //precio = 10;
 
         //Se debe poder inferir el tipo de dato
-        var apellido = null; //no es inferible
+        //var apellido = null; no es inferible
     }
 }
