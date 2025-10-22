@@ -25,6 +25,9 @@ public class SistemaEnvios {
                 costoEnvio = 20 * peso;
                 System.out.printf("El costo de envío del paquete es: $%.2f", costoEnvio);
                 break;
+            default:
+                System.out.println("Opción no válida");
+                break;
         }
     }
 }
