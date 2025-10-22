@@ -10,13 +10,12 @@ public class SistemaAdministracionCuentas {
 
         // Comenzamos con la iteración del menu
         while(!salir){
-            System.out.println("""
+            System.out.print("""
                     *** Sistema de Administracion de Cuentas ***
                     1. Crear Cuenta
                     2. Eliminar Cuenta
                     3. Salir
-                    Escoje una opción:\s 
-                    """);
+                    Escoje una opción:\s """);
             var opcion = consola.nextInt();
 
             // Evaluar cada opción
