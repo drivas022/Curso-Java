@@ -14,5 +14,9 @@ public class ArreglosSimplificados {
         for(int i = 0; i<= enteross.length - 1; i++){
             System.out.println((i + 1) + ". Enteros(var): " + enteross[i]);
         }
+
+        // Direccion de memoria de los arreglos
+        System.out.println("Dirección de memoria: " + enteros);
+        System.out.println("Dirección de memoria: " + enteross);
     }
 }
